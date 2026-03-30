@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import imgprofile from "../assets/portfolio.jpg";
-const count = ref(0);
+const count = ref(700);
 const isZoomed = ref(false);
 </script>
 
@@ -19,6 +19,9 @@ const isZoomed = ref(false);
 
           <div>
             <h3 class="fb-name">Airon Moe T. Oquindo</h3>
+            <a href="https://github.com/aironmoe" target="_blank" class="github-link">
+              <i class="fab fa-github"></i>
+            </a>
             <p class="fb-date">The Full Stack Dev You need</p>
             <br />
           </div>
@@ -59,7 +62,31 @@ const isZoomed = ref(false);
           and ensuring system reliability and data accuracy throughout development process
         </p>
       </div>
-      
+
+      <div class="card">
+        <h2>Skills</h2>
+        <h4 class="fb-name">
+          Junior RPA Developer at Wilcon Depot Inc. from (August 29, 2024 to Present)
+        </h4>
+        <p>
+          Junior RPA Developer I am currently working at Wilcon Depot Inc. as a Robotic
+          Process Automation (RPA)Developer, where I am responsible for developing,
+          maintaining, and improving their automation processes using RAX and N8N. My role
+          involves streamliningrepetitive asks of other business aaunits, managing
+          automation-related data, and supporting business efficiency through intelligent
+          automation solutions
+        </p>
+        <h4 class="fb-name">
+          Fatima University Medical Center(February 5 2024 - April 5 2024 )
+        </h4>
+        <p>
+          System Developer Carried on developing a web-based inventory management system
+          using PHP and MySQL, which involved designing and implementing database
+          structures,creating dynamic user interfaces,optimizing application performance
+          and ensuring system reliability and data accuracy throughout development process
+        </p>
+      </div>
+
       <div class="card">
         <div class="fb-name">Education</div>
         <h4 class="fb-name">Our Lady of Fatima University</h4>
@@ -68,6 +95,20 @@ const isZoomed = ref(false);
           Our lady of Fatima University 2020 - 2024 Bachelor of Science Information
           Technology
         </p>
+        <h4 class="fb-name">Our Lady of Fatima University</h4>
+        <p class="fb-date">Senior High School</p>
+        <p>
+          Our lady of Fatima University 2017 - 2020 Science Technology Engineering
+          Mathematics
+        </p>
+        <h4 class="fb-name">Our Lady of Fatima University</h4>
+        <p class="fb-date">High School</p>
+        <ul class="fb-name">
+          Justice Elizier National High School (2016-2017)
+        </ul>
+        <ul class="fb-name">
+          General Tiburcio De Leon National High School (2014-2017)
+        </ul>
       </div>
     </section>
   </div>

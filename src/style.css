@@ -57,3 +57,14 @@ body {
    font-size: 20px; 
    color: rgb(65, 61, 61); 
   }
+.github-link {
+  margin-left: 10px;
+  color: #333;
+  font-size: 50px;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.github-link:hover {
+  color: #000; /* darker on hover */
+}
