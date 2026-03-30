@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import imgprofile from "../assets/portfolio.jpg";
-const count = ref(700);
+const count = ref(777);
 const isZoomed = ref(false);
 </script>
 
