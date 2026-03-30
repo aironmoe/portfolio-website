@@ -38,7 +38,7 @@ const isZoomed = ref(false);
 
       <div class="card">
         <h2>Work Experience</h2>
-        <h4 class="fb-name">Wilcon Depot Inc. from (August 29, 2024 to Present)</h4>
+        <h4 class="fb-name">Junior RPA Developer at Wilcon Depot Inc. from (August 29, 2024 to Present)</h4>
         <p>
           Junior RPA Developer I am currently working at Wilcon Depot Inc. as a Robotic
           Process Automation (RPA)Developer, where I am responsible for developing,
