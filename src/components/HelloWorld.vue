@@ -55,14 +55,19 @@ const isZoomed = ref(false);
         <p>
           System Developer Carried on developing a web-based inventory management system
           using PHP and MySQL, which involved designing and implementing database
-          structures,creating dynamic user
-          interfaces,optimizing application performance and ensuring system reliability and
-          data accuracy throughout development process
+          structures,creating dynamic user interfaces,optimizing application performance
+          and ensuring system reliability and data accuracy throughout development process
         </p>
       </div>
-      <br />
+      
       <div class="card">
         <div class="fb-name">Education</div>
+        <h4 class="fb-name">Our Lady of Fatima University</h4>
+        <p class="fb-date">College</p>
+        <p>
+          Our lady of Fatima University 2020 - 2024 Bachelor of Science Information
+          Technology
+        </p>
       </div>
     </section>
   </div>
