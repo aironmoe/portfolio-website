@@ -42,7 +42,9 @@ body {
   margin-top: 15px;
 }
 .card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  transition: transform 0.2s ease, 
+  box-shadow 0.2s ease;
 }
 
 .card:hover {
@@ -67,6 +69,13 @@ body {
   font-size: 50px;
   vertical-align: middle;
   transition: 0.3s;
+}
+.js-logo {
+  width: 190px;
+  height: 190px;           
+  display: block;
+  margin: 0 auto;         
+  border-radius: 50%;     
 }
 
 .github-link:hover {

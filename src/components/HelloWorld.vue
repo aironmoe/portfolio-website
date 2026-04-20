@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import imgprofile from "../assets/portfolio.jpg";
+import imglogo from "../assets/javascript-logo.png";
 const count = ref(777);
 const isZoomed = ref(false);
 </script>
@@ -65,9 +66,7 @@ const isZoomed = ref(false);
 
       <div class="card">
         <h2>Skills</h2>
-        <h4 class="fb-name">
-          JavaScript, Vue.js, PHP, Laravel, MySQL, RAX, Uipath,
-        </h4>
+        <h4 class="fb-name">JavaScript, Vue.js, PHP, Laravel, MySQL, RAX, Uipath,</h4>
       </div>
 
       <div class="card">
@@ -92,6 +91,12 @@ const isZoomed = ref(false);
         <ul class="fb-name">
           General Tiburcio De Leon National High School (2014-2017)
         </ul>
+      </div>
+      <div class="card">
+        <h2>Skills</h2>
+        <h4 class="fb-name">JavaScript, Vue.js, PHP, Laravel, MySQL, RAX, Uipath,</h4>
+
+        <img :src="imglogo"  class="js-logo" />
       </div>
     </section>
   </div>
